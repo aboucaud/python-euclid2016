@@ -51,38 +51,38 @@ repository if possible.
 
 ## Beginner's tutorial - 26 May 2016 / 2pm - 6pm
 
-### [1. General Python concepts](notebooks/01-Introduction.ipynb)
+### [1. General Python concepts](http://nbviewer.ipython.org/urls/github.com/aboucaud/python-euclid2016/blob/master/notebooks/01-Introduction.ipynb)
 
 variables, collections, iteration, strings, logical operations, functions, classes, ipython, python2/3...
 
-### [2. Scientific computing with Python: NumPy/SciPy](notebooks/02-Numpy.ipynb)
+### [2. Scientific computing with Python: NumPy/SciPy](http://nbviewer.ipython.org/urls/github.com/aboucaud/python-euclid2016/blob/master/notebooks/02-Numpy.ipynb)
 
 arrays creation, accessing elements, array operations, masked array, broadcasting...
 
-### [3. Plotting with Python](notebooks/03-Plotting.ipynb)
+### [3. Plotting with Python](http://nbviewer.ipython.org/urls/github.com/aboucaud/python-euclid2016/blob/master/notebooks/03-Plotting.ipynb)
 
 2D plots, labeling, configuration, 3D plots, saving, Matplotlib/Seaborn
 
-### [4. The AstroPy library](notebooks/04-Astropy.ipynb)
+### [4. The AstroPy library](http://nbviewer.ipython.org/urls/github.com/aboucaud/python-euclid2016/blob/master/notebooks/04-Astropy.ipynb)
 
 reading files (ascii/fits/..), physical constants, cosmological calculations, sky coordinates manipulation...
 
 
 ## Advanced tutorial - 26 May 2016 / 9am - 12pm
 
-### [5. Euclid coding standards](notebooks/05-Euclid.ipynb)
+### [5. Euclid coding standards](http://nbviewer.ipython.org/urls/github.com/aboucaud/python-euclid2016/blob/master/notebooks/05-Euclid.ipynb)
 
 code formatting, naming conventions, docstring formatting, static analysis...
 
-### [6. Project architecture](notebooks/06-Project.ipynb)
+### [6. Project architecture](http://nbviewer.ipython.org/urls/github.com/aboucaud/python-euclid2016/blob/master/notebooks/06-Project.ipynb)
 
 TBD
 
-### [7. Testing](notebooks/07-Testing.ipynb)
+### [7. Testing](http://nbviewer.ipython.org/urls/github.com/aboucaud/python-euclid2016/blob/master/notebooks/07-Testing.ipynb)
 
 pytest, writing unit tests, fixtures, configuration, doctests, running tests ...
 
-### [8. Tips & Tricks](notebooks/08-Misc.ipynb)
+### [8. Tips & Tricks](http://nbviewer.ipython.org/urls/github.com/aboucaud/python-euclid2016/blob/master/notebooks/08-Misc.ipynb)
 
 ipython configuration, more on classes, things to avoid, quick optimization, debugging, extending python ...
 
