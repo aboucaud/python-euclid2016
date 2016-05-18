@@ -4,7 +4,7 @@
 
 ***Instructors***:
   - Alexandre Boucaud <alexandre.boucaud@ias.u-psud.fr>
-  - Mher Khazandjian <mher@strw.leidenuniv.nl>
+  - Mher Kazandjian <mher@strw.leidenuniv.nl>
 
 This repository contains material associated with the basic and advanced Python tutorial.
 
