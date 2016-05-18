@@ -77,7 +77,7 @@ repository if possible.
 
 ---
 
-## Beginner's tutorial - 26 May 2016 / 2pm - 6pm
+## Beginner's tutorial - 25 May 2016 / 2pm - 6pm
 
 ### [1. General Python concepts](http://nbviewer.jupyter.org/github/aboucaud/python-euclid2016/blob/master/notebooks/01-Introduction.ipynb)
 
