@@ -30,12 +30,12 @@ Optionally one might want to install these libraries
      http://euclid.roe.ac.uk/projects/codeen-users/wiki/User_Lodeen-installUpgrade
 
   to install python3.4 and all the pre-requisites for the tutorial.
-  run the following in a terminal...
+  run the following in a terminal... (takes about 15 min)
    
     sudo yum install python34 python34-devel libpng-devel git
     wget https://bootstrap.pypa.io/get-pip.py
     sudo python3.4 get-pip.py
-    sudo pip install numpy scipy jupyter matplotlib pytest astropy
+    sudo pip install numpy scipy jupyter matplotlib pytest astropy pyside
     git clone https://github.com/aboucaud/python-euclid2016.git
 
   to install google chrome (in case firefox keeps crashing for some reason)
