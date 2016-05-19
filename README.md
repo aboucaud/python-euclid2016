@@ -77,7 +77,7 @@ repository if possible.
 
 ---
 
-## Beginner's tutorial - 25 May 2016 / 2pm - 6pm
+## Beginner's tutorial - 26 May 2016 / 2pm - 6pm
 
 ### [1. General Python concepts](http://nbviewer.jupyter.org/github/aboucaud/python-euclid2016/blob/master/notebooks/01-Introduction.ipynb)
 
@@ -96,7 +96,7 @@ arrays creation, accessing elements, array operations, masked array, broadcastin
 reading files (ascii/fits/..), physical constants, cosmological calculations, sky coordinates manipulation...
 
 
-## Advanced tutorial - 26 May 2016 / 9am - 12pm
+## Advanced tutorial - 27 May 2016 / 9am - 12pm
 
 ### [5. Euclid coding standards](http://nbviewer.ipython.org/urls/github.com/aboucaud/python-euclid2016/blob/master/notebooks/05-Euclid.ipynb)
 
