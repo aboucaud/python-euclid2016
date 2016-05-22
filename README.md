@@ -98,7 +98,7 @@ reading files (ascii/fits/..), physical constants, cosmological calculations, sk
 
 ## Advanced tutorial - 27 May 2016 / 9am - 12pm
 
-### [5. Euclid coding standards](http://nbviewer.ipython.org/urls/github.com/aboucaud/python-euclid2016/blob/master/notebooks/05-Euclid.ipynb)
+### [5. Euclid coding standards](https://github.com/aboucaud/python-euclid2016/blob/master/notebooks/05-Euclid.ipynb)
 
 code formatting, naming conventions, docstring formatting, static analysis...
 
@@ -110,7 +110,7 @@ TBD
 
 pytest, writing unit tests, fixtures, configuration, doctests, running tests ...
 
-### [8. Tips & Tricks](http://nbviewer.ipython.org/urls/github.com/aboucaud/python-euclid2016/blob/master/notebooks/08-Misc.ipynb)
+### [8. Tips & Tricks](https://github.com/aboucaud/python-euclid2016/blob/master/notebooks/08-Misc.ipynb)
 
 ipython configuration, more on classes, things to avoid, quick optimization, debugging, extending python ...
 
