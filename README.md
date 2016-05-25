@@ -30,35 +30,25 @@ Optionally one might want to install these libraries
 - [Seaborn](http://stanford.edu/~mwaskom/software/seaborn/index.html) a data visualization library
 
 
-## Setting up lodeen 1.2 to run python3
+## LODEEN Virtual Machine
 
-  get a copy of lodeen virtual machine and launch it 
+For Euclid developers, a virtual machine with all the requisite libraries/packages has been setup and can be used on all operating systems.
+The VM is available at [this link](https://apceuclidweb.in2p3.fr/webdav/CppPythonWS2016/CppPythonSession.ova) **with a valid Cosmos Account**.
 
-     http://euclid.roe.ac.uk/projects/codeen-users/wiki/User_Lodeen-installUpgrade
+If you use [VirtualBox](https://www.virtualbox.org/) (*recommended*), go to File > Import appliance > /path/to/CppPythonSession.ova
+The VM credentials are ***ID: user*** / ***pwd: password***
+**Tip:** In the VM, install the *VirtualBox Guest Additions* in order to enable the *full screen mode*.
 
-  to install python3.4 and all the pre-requisites for the tutorial.
-  run the following in a terminal... (takes about 15 min)
-   
-    sudo yum install python34 python34-devel libpng-devel git
-    wget https://bootstrap.pypa.io/get-pip.py
-    sudo python3.4 get-pip.py
-    sudo pip install numpy scipy jupyter matplotlib pytest astropy pyside
-    git clone https://github.com/aboucaud/python-euclid2016.git
+The Python tutorial has already been integrated to the machine but you should make sure you have the latest version
 
-  to install google chrome (in case firefox keeps crashing for some reason)
-  
-    wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
-    sudo yum install ./google-chrome-stable_current_*.rpm
+    cd ~/Desktop/python-euclid2016
+    git pull
 
-  to launch the tutorial with google chrome
-  
-    jupyter-notebook python-euclid2016 --browser=google-chrome
+Then launch the notebooks
 
-  to launch the tutorial with the default browser
-  
-    jupyter-notebook python-euclid2016
-  
-## Downloading the tutorial materials
+    jupyter-notebook notebooks
+
+## Get the tutorial material
 
 If you have ``git`` installed, you can clone the material of this tutorial with
 
@@ -72,7 +62,7 @@ You can access a static view of the notebooks following the links below.
 To modify them, first download the tutorial repository, change to the notebooks
 directory, and run
 
-    jupyter notebook
+    jupyter-notebook
 
 This will launch a page on web browser with the list of notebooks.
 For more information on the IPython/Jupyter notebook,
