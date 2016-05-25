@@ -114,4 +114,4 @@ ipython configuration, more on classes, things to avoid, quick optimization, deb
 
 ## References
 
-A list of references can be found [here](REFERENCES)
+A list of references can be found [here](REFERENCES.md)
