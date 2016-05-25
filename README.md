@@ -14,6 +14,7 @@ This repository contains material associated with the basic and advanced Python 
   - [Getting the notebooks](#get-the-tutorial-material)
   - [Beginner tutorial list](#beginner-tutorial)
   - [Advanced tutorial list](#advanced-tutorial)
+  - [References](#references)
 
 ## System installation
 
@@ -111,3 +112,6 @@ pytest, writing unit tests, fixtures, configuration, doctests, running tests ...
 
 ipython configuration, more on classes, things to avoid, quick optimization, debugging, extending python ...
 
+## References
+
+A list of references can be found [here](REFERENCES)
