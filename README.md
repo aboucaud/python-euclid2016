@@ -1,12 +1,19 @@
 # Python Tutorial for Euclid Developers
 
+This repository contains material associated with the basic and advanced Python tutorial.
+
 ***Date***: 26-27 May 2016
 
 ***Instructors***:
   - Alexandre Boucaud <alexandre.boucaud@ias.u-psud.fr>
   - Mher Kazandjian <mher@strw.leidenuniv.nl>
 
-This repository contains material associated with the basic and advanced Python tutorial.
+***Content***:
+  - [General installation](#system-installation)
+  - [Installation for Euclid dev.](#lodeen-virtual-machine)
+  - [Getting the notebooks](#get-the-tutorial-material)
+  - [Beginner tutorial list](#beginner-tutorial)
+  - [Advanced tutorial list](#advanced-tutorial)
 
 ## System installation
 
@@ -77,7 +84,7 @@ repository if possible.
 
 ---
 
-## Beginner's tutorial - 26 May 2016 / 2pm - 6pm
+## Beginner tutorial
 
 ### [1. General Python concepts](http://nbviewer.jupyter.org/github/aboucaud/python-euclid2016/blob/master/notebooks/01-Introduction.ipynb)
 
@@ -96,7 +103,7 @@ arrays creation, accessing elements, array operations, masked array, broadcastin
 reading files (ascii/fits/..), physical constants, cosmological calculations, sky coordinates manipulation...
 
 
-## Advanced tutorial - 27 May 2016 / 9am - 12pm
+## Advanced tutorial
 
 ### [5. Euclid coding standards](https://github.com/aboucaud/python-euclid2016/blob/master/notebooks/05-Euclid.ipynb)
 
