@@ -15,6 +15,9 @@
 # along with this library; if not, write to the Free Software Foundation, Inc.,
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
 
+"""
+this is a module that provides some exception error classes
+"""
 
 import os
 import fcntl
@@ -22,14 +25,14 @@ import fcntl
 
 class Lock(object):
     """This is a lock class"""
-    def __init__(self, path):  # throws IOError
-        # can raise IOError
+    def __init__(self, path):
+        """can raise IOError, throws IOError"""
         self._lock_file = os.open(path, os.O_RDWR | os.O_CREAT)
         # can raise IOError
         fcntl.lockf(self._lock_file, fcntl.LOCK_EX)
 
-    def unlock(self):  # throws IOError
-        # can raise IOError
+    def unlock(self):
+        """can raise IOError, throws IOError"""
         fcntl.lockf(self._lock_file, fcntl.LOCK_UN)
         os.close(self._lock_file)
 
