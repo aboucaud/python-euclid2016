@@ -18,47 +18,53 @@
 import os
 import fcntl
 
+
 class Lock(object):
     """This is a lock class"""
     def __init__(self,path): #throws IOError
-        #can raise IOError
+        # can raise IOError
         self._lock_file = os.open(path, os.O_RDWR | os.O_CREAT)
-        #can raise IOError
+        # can raise IOError
         fcntl.lockf(self._lock_file, fcntl.LOCK_EX)
-        
 
     def unlock(self): #throws IOError
-        #can raise IOError
+        # can raise IOError
         fcntl.lockf(self._lock_file, fcntl.LOCK_UN) 
         os.close(self._lock_file)
     
-    #def __del__(self): #throws IOError
-    #    #can raise IOError
-    #    fcntl.lockf(self._lock_file, fcntl.LOCK_UN) 
-    #    os.close(self._lock_file)
+    # def __del__(self): #throws IOError
+    #     # can raise IOError
+    #     fcntl.lockf(self._lock_file, fcntl.LOCK_UN)
+    #     os.close(self._lock_file)
         
+
 class SubmissionError(Exception):
     """this is an error class"""
-    def __init__(self,s=-1):
-        self.msg=s
+    def __init__(self,s = -1):
+        self.msg = s
+
     def __str__(self):
         return "qsub returned " + self.msg      
       
+
 class JobRunningError(Exception):
     """this is an another error class"""
     def __str__(self):
         return "cannot return exit status of a running job"  
     
+
 class InvalidConfigError(Exception):
     """this is an yet another error class"""
-    def __init__(self,s=""):
-        self.msg=s
+    def __init__(self, s=""):
+        self.msg = s
+
     def __str__(self):
         return "[InvalidConfigurationError] " + self.msg
 
+
 class InvalidInputFile(Exception):
     """... and another error class"""
-    def __init__(self,msg=""):
+    def __init__(self, msg=""):
         self.msg = msg
 
     def __str__(self):
