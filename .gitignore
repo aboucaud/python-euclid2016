@@ -60,3 +60,11 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+# Project specific
+notebooks/myplot.png
+notebooks/numpy_data.txt
+notebooks/plot.eps
+notebooks/plot.png
+notebooks/sources.tex
+notebooks/sources.xml
