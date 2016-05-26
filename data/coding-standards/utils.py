@@ -45,6 +45,7 @@ class Lock(object):
 class SubmissionError(Exception):
     """this is an error class"""
     def __init__(self, s=-1):
+        super(SubmissionError, self).__init__()
         self.msg = s
 
     def __str__(self):
@@ -60,6 +61,7 @@ class JobRunningError(Exception):
 class InvalidConfigError(Exception):
     """this is an yet another error class"""
     def __init__(self, s=""):
+        super(InvalidConfigError, self).__init__()
         self.msg = s
 
     def __str__(self):
@@ -69,6 +71,7 @@ class InvalidConfigError(Exception):
 class InvalidInputFile(Exception):
     """... and another error class"""
     def __init__(self, msg=""):
+        super(InvalidInputFile, self).__init__()
         self.msg = msg
 
     def __str__(self):
