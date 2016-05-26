@@ -36,6 +36,10 @@ class Lock(object):
         fcntl.lockf(self._lock_file, fcntl.LOCK_UN)
         os.close(self._lock_file)
 
+    def do_something(self):
+        """this does bla bla"""
+        pass
+
     # def __del__(self): #throws IOError
     #     # can raise IOError
     #     fcntl.lockf(self._lock_file, fcntl.LOCK_UN)
