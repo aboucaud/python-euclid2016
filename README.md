@@ -100,11 +100,13 @@ reading files (ascii/fits/..), physical constants, cosmological calculations, sk
 
 code formatting, naming conventions, docstring formatting, static analysis...
 
-### [6. Project architecture](http://nbviewer.ipython.org/urls/github.com/aboucaud/python-euclid2016/blob/master/notebooks/06-Project.ipynb)
+### [6. Project architecture (slides)](https://github.com/aboucaud/python-euclid2016/blob/master/notebooks/06-Project.pdf)
 
-TBD
+modules/submodules, `__init__.py`, imports, the `__all__` variable, module documentation
 
 ### [7. Testing](http://nbviewer.ipython.org/urls/github.com/aboucaud/python-euclid2016/blob/master/notebooks/07-Testing.ipynb)
+
+See [slides](https://github.com/aboucaud/python-euclid2016/blob/master/notebooks/07-Testing.pdf) by F. Raison from the Dev. Workshop #2.
 
 pytest, writing unit tests, fixtures, configuration, doctests, running tests ...
 
