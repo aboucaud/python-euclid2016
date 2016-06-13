@@ -100,7 +100,9 @@ reading files (ascii/fits/..), physical constants, cosmological calculations, sk
 
 code formatting, naming conventions, docstring formatting, static analysis...
 
-### [6. Project architecture (slides)](https://github.com/aboucaud/python-euclid2016/blob/master/notebooks/06-Project.pdf)
+### [6. Project architecture](notebooks/06-Project.md)
+
+See also [slides](https://github.com/aboucaud/python-euclid2016/blob/master/notebooks/06-Project.pdf).
 
 modules/submodules, `__init__.py`, imports, the `__all__` variable, module documentation
 

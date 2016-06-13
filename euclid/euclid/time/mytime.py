@@ -3,8 +3,6 @@
 
 from time import strftime, gmtime
 
-__all__ = ['now']
-
 
 def now():
     """

@@ -4,6 +4,8 @@
 import math
 import numpy as np
 
+__all__ = ['trigo', 'trigonp']
+
 
 def trigo(angle):
     """
@@ -40,3 +42,10 @@ def trigonp(angle):
 
     """
     return np.cos(angle)**2 + np.sin(angle)**2
+
+
+def useless_trigo():
+    """
+    Useless method
+    """
+    return None

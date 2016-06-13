@@ -7,4 +7,4 @@ to organized.
 
 """
 from . import maths
-from .time import now
+from .time.mytime import now
