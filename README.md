@@ -14,7 +14,7 @@ This repository contains material associated with the basic and advanced Python 
   - [Getting the notebooks](#get-the-tutorial-material)
   - [Beginner tutorial list](#beginner-tutorial)
   - [Advanced tutorial list](#advanced-tutorial)
-  - [References](#references)
+  - [References](#references) and [cheatsheet](cheatsheet/cheatsheet.html)
 
 ## System installation
 
