@@ -14,7 +14,7 @@ This repository contains material associated with the basic and advanced Python 
   - [Getting the notebooks](#get-the-tutorial-material)
   - [Beginner tutorial list](#beginner-tutorial)
   - [Advanced tutorial list](#advanced-tutorial)
-  - [References](#references) and [cheatsheet](cheatsheet/cheatsheet.html)
+  - [References](#references) and [cheatsheet](http://www.ias.u-psud.fr/pperso/aboucaud/cheatsheet.html)
 
 ## System installation
 
@@ -118,4 +118,4 @@ ipython configuration, more on classes, things to avoid, quick optimization, deb
 
 ## References
 
-A list of references can be found [here](REFERENCES.md)
+A list of references can be found [here](REFERENCES.md) and a useful cheatsheet [here](http://www.ias.u-psud.fr/pperso/aboucaud/cheatsheet.html).
