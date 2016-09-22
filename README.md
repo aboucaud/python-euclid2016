@@ -96,7 +96,7 @@ reading files (ascii/fits/..), physical constants, cosmological calculations, sk
 
 ## Advanced tutorial
 
-### [5. Euclid coding standards](https://github.com/aboucaud/python-euclid2016/blob/master/notebooks/05-Euclid.ipynb)
+### [5. Python coding guidelines](https://github.com/aboucaud/python-euclid2016/blob/master/notebooks/05-Euclid.ipynb)
 
 code formatting, naming conventions, docstring formatting, static analysis...
 
